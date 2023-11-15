@@ -1,7 +1,7 @@
 import React from 'react'
 import { Breadcrumb } from 'react-bootstrap'
 
-export const Breadcrumb_comp = ({page}) => {
+export const BreadcrumbComp = ({page}) => {
     return(
         <Breadcrumb>
         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>

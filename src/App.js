@@ -4,13 +4,15 @@ import { Button } from "react-bootstrap";
 import { Entry } from "./pages/entry/entry.page";
 import { DefaultLayout } from './layout/DefaultLayout';
 import { Dashboard } from './pages/Dashboard/Dashboard.page';
+import { AddTicket } from './pages/new-ticket/AddTicket.page';
 
 function App() {
   return (
     <div className="App">
       {/* <Entry/> */}
       <DefaultLayout>
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      <AddTicket />
       </DefaultLayout>
         
       

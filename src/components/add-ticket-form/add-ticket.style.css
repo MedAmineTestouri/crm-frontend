@@ -1,0 +1,20 @@
+.jumbotron-ticket {
+    
+    background-color: #e9ecef;
+    
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    }
+    .jumbotron-ticket:hover {
+    
+        background-color: #e9ecef;
+        
+        border-radius: .4rem;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 0px 0px 15px -5px black;
+        }
+    
+    
+   
