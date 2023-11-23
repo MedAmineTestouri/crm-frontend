@@ -3,36 +3,139 @@
         "id" :1,
         "subject":"ssl issue",
         "status" : "Client response pending",
-        "addedt" : "2020-09-23"   
+        "addedt" : "2020-09-23",
+        "history":[
+            {
+                "date" : "20-10-10",
+                "message" : "any thing its just a dummy data for test",
+                "messageBy" : "client1"
+            },
+            {
+                "date" : "20-11-10",
+                "message" : "any thing its just a dummy data for test",
+                "messageBy" : "operator1"
+            },
+            {
+                "date" : "20-13-10",
+                "message" : "any thing its just a dummy data for test",
+                "messageBy" : "client6"
+            }
+        ]   
     },
     {
         "id" :2,
         "subject":"exple 2",
         "status" : "Client response pending",
-        "addedt" : "2020-09-23"   
+        "addedt" : "2020-09-23",
+        "history":[
+            {
+                "date" : "20-6-2",
+                "message" : "any thing its just a dummy data for test2",
+                "messageBy" : "client2"
+            },
+            {
+                "date" : "20-6-3",
+                "message" : "any thing its just a dummy data for test2",
+                "messageBy" : "operator2"
+            },
+            {
+                "date" : "20-6-11",
+                "message" : "any thing its just a dummy data for test2",
+                "messageBy" : "client6"
+            }
+        ]   
     },
     {
         "id" :3,
         "subject":"exple 3",
         "status" : "Client response pending",
-        "addedt" : "2020-09-23"   
+        "addedt" : "2020-09-23"
+        ,
+        "history":[
+            {
+                "date" : "20-6-2",
+                "message" : "any thing its just a dummy data for test3",
+                "messageBy" : "client3"
+            },
+            {
+                "date" : "20-6-3",
+                "message" : "any thing its just a dummy data for test3",
+                "messageBy" : "operator3"
+            },
+            {
+                "date" : "20-6-11",
+                "message" : "any thing its just a dummy data for test3",
+                "messageBy" : "client6"
+            }
+        ]   
     },
     {
         "id" :4,
         "subject":"exple 4",
         "status" : "Client response pending",
-        "addedt" : "2020-09-23"   
+        "addedt" : "2020-09-23" ,
+        "history":[
+            {
+                "date" : "20-6-2",
+                "message" : "any thing its just a dummy data for test4",
+                "messageBy" : "client4"
+            },
+            {
+                "date" : "20-6-3",
+                "message" : "any thing its just a dummy data for test4",
+                "messageBy" : "operator4"
+            },
+            {
+                "date" : "20-6-11",
+                "message" : "any thing its just a dummy data for test4",
+                "messageBy" : "client6"
+            }
+        ]     
     },
     {
         "id" :5,
         "subject":"exple 5",
         "status" : "Client response pending",
-        "addedt" : "2020-09-23"   
+        "addedt" : "2020-09-23" ,
+        "history":[
+            {
+                "date" : "20-6-2",
+                "message" : "any thing its just a dummy data for tes5",
+                "messageBy" : "client5"
+            },
+            {
+                "date" : "20-6-3",
+                "message" : "any thing its just a dummy data for test5",
+                "messageBy" : "operator5"
+            },
+            {
+                "date" : "20-6-11",
+                "message" : "any thing its just a dummy data for test5",
+                "messageBy" : "client6"
+            }
+        ]     
     },
     {
         "id" :6,
         "subject":"exple 6",
         "status" : "Client response pending",
-        "addedt" : "2020-09-23"   
+        "addedt" : "2020-09-23" ,
+        "history":[
+            {
+                "date" : "20-6-2",
+                "message" : "any thing its just a dummy data for test6",
+                "messageBy" : "client6"
+            },
+            {
+                "date" : "20-6-3",
+                "message" : "any thing its just a dummy data for test6",
+                "messageBy" : "operator6"
+            },
+            {
+                "date" : "20-6-11",
+                "message" : "any thing its just a dummy data for test6",
+                "messageBy" : "client6"
+            }
+        ]     
     }
 ]
