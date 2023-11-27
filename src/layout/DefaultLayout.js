@@ -1,4 +1,5 @@
 import { React } from "react";
+import { NavLink , Outlet } from "react-router-dom";
 import { Header } from "./partials/Header.comp";
 import { Footer } from "./partials/Footer.comp";
 export const DefaultLayout = ({children}) => {
@@ -8,10 +9,12 @@ export const DefaultLayout = ({children}) => {
 
                 <header className="header mb-3">
                     <Header/>
+                    
                 </header>
 
                 <main className="main">
                     {children}
+                    <Outlet/>
                 </main>
 
                 <footer className="footer">

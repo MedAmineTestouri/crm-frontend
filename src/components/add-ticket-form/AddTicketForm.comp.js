@@ -5,7 +5,7 @@ import '../add-ticket-form/add-ticket.style.css'
 
 
 export const AddTicketForm = ({handleOnchange,FrmDt,handleOnSubmit,FrmDataErr}) => {
-    console.log(FrmDt);
+    
     
     return (
         <div className='jumbotron-ticket'>
@@ -13,8 +13,8 @@ export const AddTicketForm = ({handleOnchange,FrmDt,handleOnSubmit,FrmDataErr}) 
              <Form autoComplete="off" onSubmit={handleOnSubmit}>
                         <Form.Group as = {Row}>
 
-                            <Form.Label column sm={3}>Subject</Form.Label>
-                            <Col column sm={9}>
+                            <Form.Label column='true' sm={3}>Subject</Form.Label>
+                            <Col column='true' sm={9}>
                             <Form.Control
                                 type="text"
                                 name="subject"
@@ -28,8 +28,8 @@ export const AddTicketForm = ({handleOnchange,FrmDt,handleOnSubmit,FrmDataErr}) 
                         </Form.Group> 
                         <Form.Group as = {Row}>
 
-                        <Form.Label column sm={3}>Date</Form.Label>
-                        <Col column sm={9}>
+                        <Form.Label column='true' sm={3}>Date</Form.Label>
+                        <Col column='true' sm={9}>
                         <Form.Control
                             type="date"
                             name="issueDate"
@@ -42,11 +42,13 @@ export const AddTicketForm = ({handleOnchange,FrmDt,handleOnSubmit,FrmDataErr}) 
                         </Form.Group>
                         <Form.Group as = {Row}>
 
-                        <Form.Label column sm={3} >Details</Form.Label>
-                        <Col column sm={9}>
+                        <Form.Label column='true' sm={3} >Details</Form.Label>
+                        <Col column='true' sm={9}>
                         
                         <Form.Control
                             type="textarea"
+                            as = "textarea"
+                            row="8"
                             name="details"
                             placeholder=""
                             value={FrmDt.details}
@@ -58,7 +60,7 @@ export const AddTicketForm = ({handleOnchange,FrmDt,handleOnSubmit,FrmDataErr}) 
                         </Form.Group>
                         
                    
-                    <Button className='bg-info' type="submit" style={{margin:'10px'}} block>Add Ticket</Button>
+                    <Button className='bg-info' type="submit" style={{margin:'10px'}} block="true">Add Ticket</Button>
                 </Form>
         </div>
     )
